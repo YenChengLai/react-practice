@@ -1,10 +1,12 @@
+import './ExpenseItem.css';
+
 function ExpenseItem() {
   return (
-    <div>
+    <div className="expense-item">
       <div>April 14th 2022</div>
-      <div>
+      <div className="expense-item__description">
         <h2>Grocery</h2>
-        <div>$39</div>
+        <div className="expense-item__price">$39.07</div>
       </div>
     </div>
   );
